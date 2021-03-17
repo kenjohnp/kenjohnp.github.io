@@ -391,6 +391,21 @@ a:hover {
   }
 }
 
+/* ABOUT ME */
+.about-container {
+  padding: 1rem;
+}
+
+/* CONTACT FORM */
+.contact-form-container {
+  padding: 1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
 /* FOOTER */
 .footer {
   margin-top: 5rem;
@@ -410,4 +425,25 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+/* FORMS */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1.8rem;
+  border: 1px solid #9d9d9d;
+  border-radius: 3px;
+  outline: 0;
+}
+
+.form-input:focus {
+  border: 2px solid var(--color-primary);
 }
