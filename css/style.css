@@ -169,3 +169,23 @@ a:hover {
     padding: 1rem;
   }
 }
+
+/* ICONS */
+.icon {
+  align-items: center;
+  border-radius: 50%;
+  display: inline-flex;
+  height: 5rem;
+  justify-content: center;
+  padding: 1rem;
+  width: 5rem;
+}
+
+.icon i {
+  font-size: 3rem;
+}
+
+.icon-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
