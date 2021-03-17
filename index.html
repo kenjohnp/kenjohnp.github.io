@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/507c2c2edb.js"></script>
     <title>Kenjohn Pacana</title>
   </head>
@@ -31,12 +32,12 @@
       </header>
       <section class="block" id="home">
         <div class="grid grid-1x2">
-          <header class="hero-content">
+          <header class="hero-content" data-aos="fade-up-right">
             <h1>Hello!</h1>
             <h2>I'm <strong>Kenjohn Pacaña</strong></h2>
             <h3>Software Developer</h3>
           </header>
-          <div class="hero-image-container">
+          <div class="hero-image-container" data-aos="fade-down-left">
             <img src="images/svg/coffee.svg" alt="" class="hero-image" />
           </div>
         </div>
@@ -47,27 +48,27 @@
             <h3 class="primary-text">FRONT-END SKILLS</h3>
           </header>
           <div class="grid grid-1x3 grid-1x6">
-            <div class="skill-container">
+            <div class="skill-container" data-aos="zoom-in-down">
               <img src="images/html_logo.png" class="skill-image" />
               <p class="skill-label">HTML</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="zoom-in-down">
               <img src="images/css_logo.png" class="skill-image" />
               <p class="skill-label">CSS</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="zoom-in-down">
               <img src="images/js_logo.png" class="skill-image" />
               <p class="skill-label">JavaScript</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="zoom-in-down">
               <img src="images/react_logo.png" class="skill-image" />
               <p class="skill-label">React</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="zoom-in-down">
               <img src="images/redux_logo.png" class="skill-image" />
               <p class="skill-label">Redux</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="zoom-in-down">
               <img src="images/figma_logo.png" class="skill-image" />
               <p class="skill-label">Figma</p>
             </div>
@@ -79,34 +80,34 @@
               <h3 class="primary-text">BACK-END SKILLS</h3>
             </header>
             <div class="grid grid-1x3">
-              <div class="skill-container">
+              <div class="skill-container" data-aos="zoom-in-down">
                 <img src="images/java_logo.png" class="skill-image" />
                 <p class="skill-label">Java SE</p>
               </div>
-              <div class="skill-container">
+              <div class="skill-container" data-aos="zoom-in-down">
                 <img src="images/spring-boot_logo.png" class="skill-image" />
                 <p class="skill-label">Spring Boot</p>
               </div>
-              <div class="skill-container">
+              <div class="skill-container" data-aos="zoom-in-down">
                 <img src="images/node_logo.png" class="skill-image" />
                 <p class="skill-label">Node.js</p>
               </div>
             </div>
           </div>
           <div class="database-skills">
-            <header class="skill-header">
+            <header class="skill-header" data-aos="zoom-in-down">
               <h3 class="primary-text">DATABASES</h3>
             </header>
             <div class="grid grid-1x3">
-              <div class="skill-container">
+              <div class="skill-container" data-aos="zoom-in-down">
                 <img src="images/mysql_logo.png" class="skill-image" />
                 <p class="skill-label">MySQL</p>
               </div>
-              <div class="skill-container">
+              <div class="skill-container" data-aos="zoom-in-down">
                 <img src="images/sql_server_logo.png" class="skill-image" />
                 <p class="skill-label">SQL Server</p>
               </div>
-              <div class="skill-container">
+              <div class="skill-container" data-aos="zoom-in-down">
                 <img src="images/mongodb_logo.png" class="skill-image" />
                 <p class="skill-label">MongoDB</p>
               </div>
@@ -118,15 +119,15 @@
             <h3 class="primary-text">OTHER SKILLS</h3>
           </header>
           <div class="grid grid-1x3">
-            <div class="skill-container">
+            <div class="skill-container" data-aos="zoom-in-down">
               <img src="images/digital-ocean_logo.png" class="skill-image" />
               <p class="skill-label">DigitalOcean</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="zoom-in-down">
               <img src="images/sap-logo.png" class="skill-image" />
               <p class="skill-label">SAP B1</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="zoom-in-down">
               <img src="images/wordpress_logo.png" class="skill-image" />
               <p class="skill-label">WordPress</p>
             </div>
@@ -138,7 +139,7 @@
           <h3 class="primary-text">PROJECTS</h3>
         </header>
         <div class="grid grid-1x2">
-          <div class="project-container">
+          <div class="project-container" data-aos="fade-up">
             <div class="grid grid-1x2 project-container">
               <div class="project-thumbnail-container">
                 <img
@@ -161,7 +162,7 @@
               </div>
             </div>
           </div>
-          <div class="project-container">
+          <div class="project-container" data-aos="fade-up">
             <div class="grid grid-1x2 project-container">
               <div class="project-thumbnail-container">
                 <img
@@ -231,5 +232,9 @@
       </footer>
     </section>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
