@@ -337,6 +337,12 @@ a:hover {
 
 /* SKILLS SECTION */
 .other-skills {
-  width: 50%;
-  margin: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .other-skills {
+    width: 50%;
+    margin: auto;
+  }
 }
