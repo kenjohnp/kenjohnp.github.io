@@ -189,3 +189,39 @@ a:hover {
   background-color: var(--color-primary);
   color: #fff;
 }
+
+/* LOGO */
+.logo {
+  height: 9rem;
+  width: 15rem;
+}
+
+/* LIST */
+
+.list {
+  list-style: none;
+}
+
+/* NAV MENU */
+.nav-list {
+  display: none;
+  justify-content: space-between;
+}
+
+.nav-item {
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.nav-item:hover {
+  color: #333;
+  border-bottom: 3px solid var(--color-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list {
+    display: flex;
+  }
+}
