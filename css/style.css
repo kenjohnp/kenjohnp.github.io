@@ -41,8 +41,14 @@ h3 {
   font-size: 2.4rem;
 }
 
+h4 {
+  font-size: 2rem;
+  margin: 0;
+}
+
 p {
   font-size: 1.8rem;
+  margin-block-start: 0;
 }
 
 a {
@@ -73,6 +79,10 @@ a:hover {
 
   h3 {
     font-size: 3.6rem;
+  }
+
+  h4 {
+    font-size: 2.4rem;
   }
 
   p {
@@ -164,22 +174,6 @@ a:hover {
 
   .grid-1x2 {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* PROJECT */
-.project-container {
-  padding: 1rem;
-}
-
-.project-thumbnail {
-  width: 100%;
-  border: 3px solid #cac6c6;
-}
-
-@media screen and (min-width: 1024px) {
-  .project-body {
-    padding: 1rem;
   }
 }
 
@@ -344,5 +338,42 @@ a:hover {
   .other-skills {
     width: 50%;
     margin: auto;
+  }
+}
+
+/* PROJECTS SECTION */
+.project-header {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.project-container {
+  padding: 1rem;
+}
+
+.project-thumbnail-container {
+  display: flex;
+  justify-items: flex-start;
+  align-items: flex-start;
+}
+
+.project-thumbnail {
+  width: 100%;
+  border: 3px solid #cac6c6;
+}
+
+.project-body {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .project-body {
+    margin: 0;
+    padding: 0 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 20rem;
   }
 }

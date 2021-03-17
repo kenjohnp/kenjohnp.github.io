@@ -21,7 +21,7 @@
             <i class="fa fa-bars" aria-hidden="true"></i>
           </div>
           <ul class="list nav-list collapsible-content">
-            <li class="nav-item">Home</li>
+            <a href="#home"><li class="nav-item">Home</li></a>
             <a href="#skills"><li class="nav-item">Skills</li></a>
             <li class="nav-item">Projects</li>
             <li class="nav-item">Experiences</li>
@@ -29,7 +29,7 @@
           </ul>
         </nav>
       </header>
-      <section class="block">
+      <section class="block" id="home">
         <div class="grid grid-1x2">
           <header class="hero-content">
             <h1>Hello!</h1>
@@ -129,6 +129,74 @@
             <div class="skill-container">
               <img src="images/wordpress_logo.png" class="skill-image" />
               <p class="skill-label">WordPress</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block" id="projects">
+        <header class="project-header">
+          <h3 class="primary-text">PROJECTS</h3>
+        </header>
+        <div class="grid grid-1x2">
+          <div class="project-container">
+            <div class="grid grid-1x2 project-container">
+              <div class="project-thumbnail-container">
+                <img
+                  src="/images/project-thumbnail.jpg"
+                  class="project-thumbnail"
+                />
+              </div>
+              <div class="project-body">
+                <h4 class="primary-text">PEOTRACO FOOD INC.’s Website</h4>
+                <p>
+                  I made a website for our company using WordPress with the help
+                  of Elementor Plugin and used WooCommerce to display only the
+                  products at the website.
+
+                  <br />
+                  <br />
+                  Link:
+                  <a href="https://peotraco.com" target="_blank">Click here</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project-container">
+            <div class="grid grid-1x2 project-container">
+              <div class="project-thumbnail-container">
+                <img
+                  src="/images/project-thumbnail.jpg"
+                  class="project-thumbnail"
+                />
+              </div>
+              <div class="project-body">
+                <h4 class="primary-text">POS and Inventory System</h4>
+                <p>
+                  It’s a Single Page Application using React and used Redux to
+                  manage states. I used Node.js and Express.js to make RESTful
+                  API and used JWT for authentication and authorization. For
+                  database, I used MongoDB. It includes all the basic functions
+                  of typical POS and Inventory System. It has a barcode scanning
+                  features
+                  <br />
+                  <br />
+                  API Source Code:
+                  <a
+                    href="https://github.com/kenjohnp/kj-pos-system-api"
+                    target="_blank"
+                  >
+                    Click here</a
+                  >
+                  <br />
+
+                  Client Source Code:
+                  <a
+                    href="https://github.com/kenjohnp/kj-pos-system"
+                    target="_blank"
+                    >Click here</a
+                  >
+                </p>
+              </div>
             </div>
           </div>
         </div>
