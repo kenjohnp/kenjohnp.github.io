@@ -148,4 +148,24 @@ a:hover {
   .grid-1x6 {
     grid-template-columns: repeat(6, 1fr);
   }
+
+  .grid-1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* PROJECT */
+.project-container {
+  padding: 1rem;
+}
+
+.project-thumbnail {
+  width: 100%;
+  border: 3px solid #cac6c6;
+}
+
+@media screen and (min-width: 1024px) {
+  .project-body {
+    padding: 1rem;
+  }
 }
