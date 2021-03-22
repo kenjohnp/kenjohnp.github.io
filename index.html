@@ -37,6 +37,23 @@
             <h1>Hello!</h1>
             <h2>I'm <strong>Kenjohn Pacaña</strong></h2>
             <h3>Software Developer</h3>
+            <div class="hero-buttons">
+              <a
+                class="btn btn-primary"
+                href="/docs/2021-Resume-Pacaña-Kenjohn-O..pdf"
+                download
+              >
+                <i class="fa fa-user" aria-hidden="true"></i> DOWNLOAD RESUME
+              </a>
+              <a
+                class="btn btn-outline-primary"
+                href="https://github.com/kenjohnp"
+                target="_blank"
+              >
+                <i class="fa fa-github-square" aria-hidden="true"></i> GITHUB
+                PROFILE
+              </a>
+            </div>
           </header>
           <div class="hero-image-container" data-aos="fade-down-left">
             <img src="images/svg/coffee.svg" alt="" class="hero-image" />
@@ -140,30 +157,37 @@
           <h3 class="primary-text">PROJECTS</h3>
         </header>
         <div class="grid grid-1x2">
-          <div class="project-container" data-aos="fade-up">
+          <article class="project-container" data-aos="fade-up">
             <div class="grid grid-1x2 project-container">
               <div class="project-thumbnail-container">
                 <img
-                  src="/images/project-thumbnail.jpg"
+                  src="/images/project-thumbnail-4.jpg"
                   class="project-thumbnail"
                 />
               </div>
               <div class="project-body">
-                <h4 class="primary-text">PEOTRACO FOOD INC.’s Website</h4>
+                <h4 class="primary-text">
+                  E-Commerce Web Application (React and Spring Boot)
+                </h4>
                 <p>
-                  I made a website for our company using WordPress with the help
-                  of Elementor Plugin and used WooCommerce to display only the
-                  products at the website.
-
+                  It's a e-commerce website using React for Front-End and Spring
+                  Boot for Back-End. Customers can sign up via Google with the
+                  help of OAuth.
                   <br />
                   <br />
-                  Link:
-                  <a href="https://peotraco.com" target="_blank">Click here</a>
+                  It's still under development and this project is for practice
+                  that caters all the e-commerce basic functionalities.
+                  <br />
+                  <br />
+                  Technologies Used: React, Spring Boot, HTML, CSS, JavaScript,
+                  Spring Data JPA/Hibernate, Spring Security, MySQL
+                  <br />
+                  <br />
                 </p>
               </div>
             </div>
-          </div>
-          <div class="project-container" data-aos="fade-up">
+          </article>
+          <article class="project-container" data-aos="fade-up">
             <div class="grid grid-1x2 project-container">
               <div class="project-thumbnail-container">
                 <img
@@ -172,7 +196,9 @@
                 />
               </div>
               <div class="project-body">
-                <h4 class="primary-text">POS and Inventory System</h4>
+                <h4 class="primary-text">
+                  POS and Inventory System (MERN Stack)
+                </h4>
                 <p>
                   It’s a Single Page Application using React and used Redux to
                   manage states. I used Node.js and Express.js to make RESTful
@@ -200,7 +226,57 @@
                 </p>
               </div>
             </div>
-          </div>
+          </article>
+          <article class="project-container" data-aos="fade-up">
+            <div class="grid grid-1x2 project-container">
+              <div class="project-thumbnail-container">
+                <img
+                  src="/images/project-thumbnail.jpg"
+                  class="project-thumbnail"
+                />
+              </div>
+              <div class="project-body">
+                <h4 class="primary-text">PEOTRACO FOOD INC.’s Website</h4>
+                <p>
+                  I made a website for our company using WordPress with the help
+                  of Elementor Plugin and used WooCommerce to display only the
+                  products at the website.
+
+                  <br />
+                  <br />
+                  Link:
+                  <a href="https://peotraco.com" target="_blank">Click here</a>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="project-container" data-aos="fade-up">
+            <div class="grid grid-1x2 project-container">
+              <div class="project-thumbnail-container">
+                <img src="/images/cds.png" class="project-thumbnail" />
+              </div>
+              <div class="project-body">
+                <h4 class="primary-text">
+                  Online Customer Data Sheet (MERN Stack)
+                </h4>
+                <p>
+                  It's a online customer data sheet for customers who orders a
+                  large volume of products. It's not a simple application form
+                  because it's a very large form with file upload.
+                  <br />
+                  It has a dashboard for sales agents to manage their respective
+                  customers.
+                  <br />
+                  I used MERN Stack for this project.
+                  <br />
+                  <br />
+                  The project is completed but not yet released due to
+                  management approval.
+                  <br />
+                </p>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
       <section class="block" id="about">
@@ -214,36 +290,40 @@
             React and Spring Boot. Right now I'm doing full stack software
             development including UI/UX design to build applications.
             <br /><br />
-            You can contact me using the contact form below or directly email me
-            at <a href="mailto:kenjohnp@gmail.com">kenjohnp@gmail.com</a>
           </p>
         </div>
       </section>
       <section class="block" id="contact">
         <div class="contact-form-container" data-aos="fade-up">
           <header class="project-header">
-            <h3 class="primary-text">CONTACT FORM</h3>
+            <h3 class="primary-text">CONTACT ME</h3>
           </header>
-          <form class="contact-form">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-input" id="name" />
+          <div class="contact-icons">
+            <span>
+              Email me at
+              <a href="mailto:kenjohnp@gmail.com">kenjohnp@gmail.com</a>
+            </span>
+            <div class="icon-container">
+              <a
+                href="https://www.linkedin.com/in/pacanakenjohn/"
+                target="_blank"
+              >
+                <div class="icon icon-primary">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </div>
+              </a>
+              <a href="https://github.com/kenjohnp/" target="_blank">
+                <div class="icon icon-primary">
+                  <i class="fa fa-github-square" aria-hidden="true"></i>
+                </div>
+              </a>
+              <a href="mailto:kenjohnp@gmail.com" target="_blank">
+                <div class="icon icon-primary">
+                  <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                </div>
+              </a>
             </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="text" class="form-input" id="email" />
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea
-                rows="4"
-                type="text"
-                class="form-input"
-                id="message"
-              ></textarea>
-            </div>
-            <input type="submit" class="btn btn-primary" />
-          </form>
+          </div>
         </div>
       </section>
       <footer class="footer">
